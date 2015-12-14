@@ -1,0 +1,208 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+body {
+  background: white url(../img/body_bg.png);
+}
+.navbar {
+  background: #00796B !important;
+  color: #fff;
+  position: fixed;
+}
+
+#navbar .nav-wrapper {
+  margin: 0 15px;
+}
+
+.default_font_color {
+  color: #fcac45;
+}
+
+.nav-wrapper a {
+  color: #fff !important;
+}
+#mobile-demo li {
+  display: inherit;
+}
+#mobile-demo a {
+  color: #333 !important;
+}
+#nav .active {
+  background: #fcac45 !important;
+}
+.slides {
+  height: 90% !important;
+}
+
+#web_dev_img {
+  width: 120%;
+}
+.width-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.two_col {
+padding: 1% !important;
+border: 1px solid #f1f1f1;
+margin: 7%;
+border-radius: 5px;
+min-height: 250px;
+}
+.two_col em, .two_col i {
+  font-size: 20px;
+  line-height: 27px;
+}
+.two_col h2 {
+  margin-bottom: 15px;
+}
+.parallax-container
+{
+  background:rgba(0, 0, 0, 0.55);
+}
+.indicators {
+  display: none;
+}
+#vision {
+  margin: 5%;
+}
+.svg {
+  width:24px;height:24px;top: 6px; position: relative; right: 2px;
+  background:  
+}
+.navbar .container {
+  width: 95% !important;
+}
+.parallax-container .card {
+  margin: 10%;
+}
+.service .card {
+  margin: 10%;
+}
+#vision em{
+line-height: 25px;
+}
+
+.arrows {
+  width: 65px;
+  height: 75px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
+  background: transparent;
+  z-index: 99;
+}
+
+.arrows path {
+  stroke: #fcac45;
+  fill: transparent;
+  stroke-width: 6px;  
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+  animation-delay:-1s;
+  -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay:-0.5s;
+  -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 { 
+  animation-delay:0s;
+  -webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+.loader {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 10000;
+  background: #f1f1f1;
+}
+.loader .preloader-wrapper {
+  margin: 20% 50%;
+}
+.hero{
+z-index: 199;
+position: absolute;
+top: 20%;
+text-align: center;
+margin: 0 auto; 
+width: 100%;
+color: teal !important;
+}
